@@ -5,8 +5,8 @@ module.exports = {
       name: `dot nine`,
       summary: ``,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    description: `Infomation from dot nine`,
+    siteUrl: `http://dot9.info/`,
     social: {
       twitter: `dotnine_jp`,
     },
@@ -60,13 +60,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `dot nine`,
+        short_name: `dot nine`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/fav.ico`,
       },
     },
     `gatsby-plugin-react-helmet`,

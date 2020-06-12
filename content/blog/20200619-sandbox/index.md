@@ -2,6 +2,7 @@
 title: 【DJ】2020/06/19 Sandbox
 date: "2020-06-19T22:40:32.169Z"
 description: 次回のSandboxのインフォメーションです。
+category: Event Info
 ---
 
 Next Sandbox
