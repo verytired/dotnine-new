@@ -24,7 +24,6 @@ typography.options.overrideThemeStyles = ({ adjustFontSizeTo, rhythm }, options,
     fontFamily: ['roboto', 'sans-serif'].join(','),
   }
 })
-console.log(typography)
 
 export default typography
 export const rhythm = typography.rhythm
