@@ -17,6 +17,14 @@ const typography = new Typography(Wordpress2016)
 if (process.env.NODE_ENV !== `production`) {
   typography.injectStyles()
 }
+typography.options.bodyFontFamily= ["Roboto", "serif"]
+typography.options.headerFontFamily= ["Roboto", "serif"]
+typography.options.overrideThemeStyles = ({ adjustFontSizeTo, rhythm }, options, styles) => ({
+  h1: {
+    fontFamily: ['roboto', 'sans-serif'].join(','),
+  }
+})
+console.log(typography)
 
 export default typography
 export const rhythm = typography.rhythm
