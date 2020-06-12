@@ -2,7 +2,8 @@
 title: Sandbox DJ Chart 2020 Feb
 date: "2020-02-27T23:46:37.121Z"
 description: 2020年2月のDJチャートです。
-category: DJ Chart
+category: DJチャート
+tags: ["dj-chart"]
 ---
 
 ## ryu
