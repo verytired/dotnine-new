@@ -1,15 +1,20 @@
 import React from "react"
 import PropTypes from "prop-types"
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+
 // Components
 import { Link, graphql } from "gatsby"
-const Tags = ({ pageContext, data }) => {
+const Tags = ({ pageContext, data, location }) => {
+  const siteTitle = data.site.siteMetadata.title
   const { tag } = pageContext
   const { edges, totalCount } = data.allMarkdownRemark
   const tagHeader = `${totalCount} post${
     totalCount === 1 ? "" : "s"
   } tagged with "${tag}"`
   return (
-    <div>
+    <Layout location={location} title={siteTitle}>
+      <SEO title="dot nine:tags" />
       <h1>{tagHeader}</h1>
       <ul>
         {edges.map(({ node }) => {
@@ -27,7 +32,7 @@ const Tags = ({ pageContext, data }) => {
               You'll come back to it!
             */}
       <Link to="/tags">All tags</Link>
-    </div>
+    </Layout>
   )
 }
 Tags.propTypes = {
@@ -70,6 +75,11 @@ export const pageQuery = graphql`
             title
           }
         }
+      }
+    }
+    site {
+      siteMetadata {
+        title
       }
     }
   }
