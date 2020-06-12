@@ -2,7 +2,7 @@
 title: Sandbox DJ Chart 2020 May
 date: "2020-05-31T23:46:37.121Z"
 description: 2020年5月のDJチャートです。
-category: DJ Chart
+category: DJチャート
 tags: ["dj-chart"]
 ---
 ## ryu
