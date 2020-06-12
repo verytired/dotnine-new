@@ -8,7 +8,7 @@ tags: ["event-info"]
 
 Next Sandbox
 
-at [ARENA下北沢](http://twitter.com/arena＿1111)
+at [ARENA下北沢](http://twitter.com/arena_1111)
 
 2020.06.19 Start 18:00 
 
