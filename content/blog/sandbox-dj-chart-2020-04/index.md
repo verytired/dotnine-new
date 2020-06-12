@@ -2,7 +2,8 @@
 title: Sandbox DJ Chart 2020 Apr
 date: "2020-04-28T23:46:37.121Z"
 description: 2020年4月のDJチャートです。
-category: DJ Chart
+tags: ["dj-chart"]
+
 ---
 
 ## 前置き
