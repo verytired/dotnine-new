@@ -1,5 +1,5 @@
 ---
-title: Sandbox DJ Chart 2019 Dec
+title: Sandbox DJ Chart 2020 Jan
 date: "2020-01-22T23:46:37.121Z"
 description: 2020年1月のDJチャートです。
 category: DJ Chart

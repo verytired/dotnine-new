@@ -1,6 +1,6 @@
 ---
 title: Sandbox DJ Chart 2019 Dec
-date: "2020-05-31T23:46:37.121Z"
+date: "2019-12-22T23:46:37.121Z"
 description: 2019年12月のDJチャートです。
 category: DJ Chart
 ---
