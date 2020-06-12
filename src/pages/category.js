@@ -7,6 +7,8 @@ import kebabCase from "lodash/kebabCase"
 // Components
 import { Helmet } from "react-helmet"
 import { Link, graphql } from "gatsby"
+import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 const CategoryPage = ({
   data: {
@@ -14,9 +16,10 @@ const CategoryPage = ({
     site: {
       siteMetadata: { title },
     },
-  },
+  },location
 }) => (
-  <div>
+  <Layout location={location} title={title}>
+    <SEO title="dot nine:category" />
     <Helmet title={title} />
     <div>
       <h1>Category</h1>
@@ -30,7 +33,7 @@ const CategoryPage = ({
         ))}
       </ul>
     </div>
-  </div>
+    </Layout>
 )
 
 CategoryPage.propTypes = {

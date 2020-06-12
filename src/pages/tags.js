@@ -11,11 +11,16 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 // Components
-const TagsPage = ({data, location}) =>
+const TagsPage = ({  data: {
+  allMarkdownRemark: { group },
+  site: {
+    siteMetadata: { title },
+  },
+  
+},location}) =>
  {
-  const siteTitle = data.site.siteMetadata.title
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout location={location} title={title}>
       <SEO title="dot nine:tags" />
       <Helmet title={title} />
       <div>

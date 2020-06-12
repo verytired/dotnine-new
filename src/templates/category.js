@@ -1,15 +1,20 @@
 import React from "react"
 import PropTypes from "prop-types"
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+
 // Components
 import { Link, graphql } from "gatsby"
-const Category = ({ pageContext, data }) => {
+const Category = ({ pageContext, data, location }) => {
+  const siteTitle = data.site.siteMetadata.title
   const { category } = pageContext
   const { edges, totalCount } = data.allMarkdownRemark
   const categoryHeader = `${totalCount} post${
     totalCount === 1 ? "" : "s"
   }  with "${category}"`
   return (
-    <div>
+    <Layout location={location} title={siteTitle}>
+      <SEO title="dot nine:category" />
       <h1>{categoryHeader}</h1>
       <ul>
         {edges.map(({ node }) => {
@@ -22,12 +27,8 @@ const Category = ({ pageContext, data }) => {
           )
         })}
       </ul>
-      {/*
-              This links to a page that does not yet exist.
-              You'll come back to it!
-            */}
       <Link to="/category">All Category</Link>
-    </div>
+    </Layout>
   )
 }
 Category.propTypes = {
@@ -70,6 +71,11 @@ export const pageQuery = graphql`
             title
           }
         }
+      }
+    }
+    site {
+      siteMetadata {
+        title
       }
     }
   }
