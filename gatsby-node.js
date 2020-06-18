@@ -3,12 +3,28 @@ const _ = require("lodash")
 
 const { createFilePath } = require("gatsby-source-filesystem")
 
+require("source-map-support").install()
+require("ts-node").register()
+
+exports.onCreateNode = ({ node, actions, getNode }) => {
+  const { createNodeField } = actions
+
+  if (node.internal.type === `MarkdownRemark`) {
+    const value = createFilePath({ node, getNode })
+    createNodeField({
+      name: `slug`,
+      node,
+      value,
+    })
+  }
+}
+
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
 
-  const blogPost = path.resolve(`./src/templates/blog-post.js`)
-  const tagTemplate = path.resolve(`./src/templates/tags.js`)
-  const categoryTemplate = path.resolve(`./src/templates/category.js`)
+  const blogPost = path.resolve(`./src/templates/blog-post.tsx`)
+  const tagTemplate = path.resolve(`./src/templates/tags.tsx`)
+  const categoryTemplate = path.resolve(`./src/templates/category.tsx`)
 
   const result = await graphql(
     `
@@ -89,17 +105,4 @@ exports.createPages = async ({ graphql, actions }) => {
       },
     })
   })
-}
-
-exports.onCreateNode = ({ node, actions, getNode }) => {
-  const { createNodeField } = actions
-
-  if (node.internal.type === `MarkdownRemark`) {
-    const value = createFilePath({ node, getNode })
-    createNodeField({
-      name: `slug`,
-      node,
-      value,
-    })
-  }
 }

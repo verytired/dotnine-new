@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 
 // Components
 import { Link, graphql } from "gatsby"
-const Tags = ({ pageContext, data, location }) => {
+const Tags = ({ pageContext, data, location }: any) => {
   const siteTitle = data.site.siteMetadata.title
   const { tag } = pageContext
   const { edges, totalCount } = data.allMarkdownRemark
@@ -17,7 +17,7 @@ const Tags = ({ pageContext, data, location }) => {
       <SEO title="dot nine:tags" />
       <h1>{tagHeader}</h1>
       <ul>
-        {edges.map(({ node }) => {
+        {edges.map(({ node }: any) => {
           const { slug } = node.fields
           const { title } = node.frontmatter
           return (

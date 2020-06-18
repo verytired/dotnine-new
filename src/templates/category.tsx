@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 
 // Components
 import { Link, graphql } from "gatsby"
-const Category = ({ pageContext, data, location }) => {
+const Category = ({ pageContext, data, location }: any) => {
   const siteTitle = data.site.siteMetadata.title
   const { category } = pageContext
   const { edges, totalCount } = data.allMarkdownRemark
@@ -17,7 +17,7 @@ const Category = ({ pageContext, data, location }) => {
       <SEO title="dot nine:category" />
       <h1>{categoryHeader}</h1>
       <ul>
-        {edges.map(({ node }) => {
+        {edges.map(({ node }: any) => {
           const { slug } = node.fields
           const { title } = node.frontmatter
           return (
