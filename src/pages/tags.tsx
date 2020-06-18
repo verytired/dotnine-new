@@ -17,7 +17,7 @@ const TagsPage = ({  data: {
     siteMetadata: { title },
   },
   
-},location}) =>
+},location}: any) =>
  {
   return (
     <Layout location={location} title={title}>
@@ -26,7 +26,7 @@ const TagsPage = ({  data: {
       <div>
         <h1>Tags</h1>
         <ul>
-          {group.map(tag => (
+          {group.map((tag: any) => (
             <li key={tag.fieldValue}>
               <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
                 {tag.fieldValue} ({tag.totalCount})

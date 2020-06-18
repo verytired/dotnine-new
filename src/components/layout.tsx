@@ -3,8 +3,9 @@ import { Link } from "gatsby"
 
 import { rhythm, scale } from "../utils/typography"
 
-const Layout = ({ location, title, children }) => {
-  const rootPath = `${__PATH_PREFIX__}/`
+const Layout = ({ location, title, children } : any) => {
+  // const rootPath = `${__PATH_PREFIX__}/`
+  const rootPath = `/`
   let header
 
   if (location.pathname === rootPath) {

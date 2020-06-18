@@ -17,14 +17,14 @@ const CategoryPage = ({
       siteMetadata: { title },
     },
   },location
-}) => (
+}: any) => (
   <Layout location={location} title={title}>
     <SEO title="dot nine:category" />
     <Helmet title={title} />
     <div>
       <h1>Category</h1>
       <ul>
-        {group.map(category => (
+        {group.map((category: any) => (
           <li key={category.fieldValue}>
             <Link to={`/category/${kebabCase(category.fieldValue)}/`}>
               {category.fieldValue} ({category.totalCount})
