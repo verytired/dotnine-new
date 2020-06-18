@@ -20,7 +20,7 @@ const CategoryList = () => (
       <nav>
         <h1>カテゴリ一覧</h1>
         <ul>
-          {data.allMarkdownRemark.group.map(category => (
+          {data.allMarkdownRemark.group.map((category: any) => (
             <li key={category.fieldValue}>
               <Link to={`/categories/${category.fieldValue}/`}>
                 {category.fieldValue} ({category.totalCount})

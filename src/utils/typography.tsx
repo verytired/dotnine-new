@@ -19,7 +19,7 @@ if (process.env.NODE_ENV !== `production`) {
 }
 typography.options.bodyFontFamily= ["Roboto", "serif"]
 typography.options.headerFontFamily= ["Roboto", "serif"]
-typography.options.overrideThemeStyles = ({ adjustFontSizeTo, rhythm }, options, styles) => ({
+typography.options.overrideThemeStyles = ({ adjustFontSizeTo, rhythm }:any, options: any, styles: any) => ({
   h1: {
     fontFamily: ['roboto', 'sans-serif'].join(','),
   }

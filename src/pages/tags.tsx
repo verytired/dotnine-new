@@ -10,33 +10,36 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const CategoryPage = ({
-  data: {
-    allMarkdownRemark: { group },
-    site: {
-      siteMetadata: { title },
-    },
-  },location
-}) => (
-  <Layout location={location} title={title}>
-    <SEO title="dot nine:category" />
-    <Helmet title={title} />
-    <div>
-      <h1>Category</h1>
-      <ul>
-        {group.map(category => (
-          <li key={category.fieldValue}>
-            <Link to={`/category/${kebabCase(category.fieldValue)}/`}>
-              {category.fieldValue} ({category.totalCount})
-            </Link>
-          </li>
-        ))}
-      </ul>
-    </div>
+// Components
+const TagsPage = ({  data: {
+  allMarkdownRemark: { group },
+  site: {
+    siteMetadata: { title },
+  },
+  
+},location}: any) =>
+ {
+  return (
+    <Layout location={location} title={title}>
+      <SEO title="dot nine:tags" />
+      <Helmet title={title} />
+      <div>
+        <h1>Tags</h1>
+        <ul>
+          {group.map((tag: any) => (
+            <li key={tag.fieldValue}>
+              <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
+                {tag.fieldValue} ({tag.totalCount})
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
     </Layout>
-)
+  )
+}
 
-CategoryPage.propTypes = {
+TagsPage.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       group: PropTypes.arrayOf(
@@ -54,7 +57,7 @@ CategoryPage.propTypes = {
   }),
 }
 
-export default CategoryPage
+export default TagsPage
 
 export const pageQuery = graphql`
   query {
@@ -64,7 +67,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(limit: 2000) {
-      group(field: frontmatter___category) {
+      group(field: frontmatter___tags) {
         fieldValue
         totalCount
       }
