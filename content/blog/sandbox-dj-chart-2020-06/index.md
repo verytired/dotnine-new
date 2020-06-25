@@ -69,7 +69,7 @@ MountainPeopleが早くも新作。地上30cmほど軽く浮遊するDeep House�
 
 - **Dorothy s Dream / APA 002**
 <iframe frameborder="no" height="120" src="https://www.juno.co.uk/player-embed/SF779402-01-01-01.mp3/?pl=false&pn=false&ed=20-06-25" scrolling="no" width="100%"></iframe>
-これもクール系Minimal
+これもクール系Minimal。ひんやりとした音使いはこの季節に合うな。夏場はこの辺りの音を積極的にプレイしたい。
 
 - **Monkey Nenufar / 2 Monkeys In The Oud**
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=328677925/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://cosmo-records.bandcamp.com/album/2-monkeys-in-the-oud-ep">2 Monkeys in the Oud EP by Monkey Nenufar</a></iframe>
