@@ -74,7 +74,7 @@ MountainPeopleが早くも新作。地上30cmほど軽く浮遊するDeep House�
 - **Monkey Nenufar / 2 Monkeys In The Oud**
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=328677925/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://cosmo-records.bandcamp.com/album/2-monkeys-in-the-oud-ep">2 Monkeys in the Oud EP by Monkey Nenufar</a></iframe>
 
-モロッコのレーベルより、エスニックはフィーリングがたまらないDeep House。この季節に合うと思います。これも前回Sandboxでもプレイ。
+モロッコのレーベルより、エスニックはフィーリングがたまらないDeep House。これもこの季節に合うと思います。これも前回Sandboxでもプレイ。
 
 - **Unknown Artist / Daze 03**
 <iframe frameborder="no" height="120" src="https://jp.juno.co.uk/player-embed/SF776937-01-01-01.mp3/?pl=false&pn=false&ed=20-06-25" scrolling="no" width="100%"></iframe>
@@ -84,7 +84,7 @@ MountainPeopleが早くも新作。地上30cmほど軽く浮遊するDeep House�
 - **Livio & Roby / Hajime Mashite EP**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/c30g4CqWczU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-日本語使いが怪しくて異様な世界が作り出さえる異形ミニマル。フミヤ+Thomas = Tofu Productions Remix入。
+日本語使いが怪しくて異様な世界が作り出される異形ミニマル。フミヤ+Thomas = Tofu Productions Remix入。
 
 - **Unknown Artist / MR008 / Memory Remains**
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/965464114&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true"></iframe>

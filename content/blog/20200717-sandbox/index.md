@@ -16,4 +16,6 @@ at [ARENA下北沢](http://twitter.com/arena_1111)
 
 No Charge (please 1 order)
 
+[https://www.residentadvisor.net/events/1410950](https://www.residentadvisor.net/events/1410950)
+
 ![flyer](./flyer.gif)
