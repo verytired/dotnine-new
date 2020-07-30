@@ -103,13 +103,15 @@ Petre大先生の外さないお仕事。安定のズブズブ感。安定のズ
 
 - **Cassy / Strong Sense EP**
 <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/995067712&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+
 中島じゃない方のCassy姉さんがPressureTraxxからリリース、スッカスカの808なビートにネットリ本人のヴォーカルが絡む超DEEPトラックに直立不動するしかNightですよ。ナイットフィーバー、子供は夜になったら寝るんです。 Tobias.リミックスはオリジナルに真っ向勝負を挑んで一歩も引かない感じでこれも最高なんだけど、ネチネチ度合いはオリジナルが激勝。
 
 - **Brigitte Bradu / Remixes Pour Ascenseurs En Panne**
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1129138734/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://brigittebarbu.bandcamp.com/album/remixes-pour-ascenseurs-en-panne">Remixes pour ascenseurs en panne by Brigitte Barbu</a></iframe>
+
 ブリジッド・バルドーをモジッたPepe Bradock変名アルバム(まさかのCircusCampanyからのリリース)からのリミックス盤。Roman FlugelやHerbert、John Tejadaが参加。ただでさえ強いのにクセが強い〜〜〜〜奇っ怪エレクトロがさらに奇っ怪テクノハウスに。Roman Flugelのリミックスはもはやテクノポップだし、Herbertはいつもの調子。どこにも属そうとしない（属せない？）男たちのユートピア。涙で向こうが見えません。
 
-- **Piano Drop / Alan Dixon**
+- **Alan Dixon / Piano Drop**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mInnCjY5Mi4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 問答無用のピアノハウス。「モテようとしてミニマルハウスをかけるDJがいたんですよ〜」「なあにい〜？！やっちまったな〜！！ 男は黙ってピアノハウス！」概ねそういう感じで間違って無いと思います。
