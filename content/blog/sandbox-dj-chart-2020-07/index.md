@@ -68,7 +68,7 @@ tags: ["dj-chart"]
 - **Full Circle / Shiver**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nvFD3S2QDLA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-巷で席巻中のネオトランス系の代表格Alexis Le-Tannによるユニットによるユニットの新作は神格化著しい・・・お布施払いたくなる神々しい美しさ。フラれてPaulVanDykを聴いて号泣していた93年へレイドバック。もはやアンビエントハウス！（死語）
+巷で席巻中のネオトランス系の代表格Alexis Le-Tannによるユニットによる新作は神格化著しい・・・お布施払いたくなる神々しい美しさ。フラれてPaulVanDykを聴いて号泣していた93年へレイドバック。もはやアンビエントハウス！（死語）
 
 - **Hammer, Atlus / SSSS-3**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PSJA6COkdHU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
