@@ -1,5 +1,5 @@
 ---
-title: 【DJ】2020/08/21 Sandbox
+title: 【DJ】2020/09/11 Sandbox
 date: "2020-09-10T00:00:00.169Z"
 description: 次回のSandboxのインフォメーションです。
 category: イベント情報

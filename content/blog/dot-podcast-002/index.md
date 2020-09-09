@@ -1,5 +1,5 @@
 ---
-title: "Dot Podcast Episode #1"
+title: "Dot Podcast Episode #2"
 date: "2020-09-10T01:00:00.284Z"
 description: "Podcast第二弾をアップしました"
 category: 更新情報
