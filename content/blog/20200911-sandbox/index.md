@@ -16,4 +16,4 @@ at [ARENA下北沢](http://twitter.com/arena_1111)
 
 No Charge (please 1 order)
 
-![flyer](content/blog/20200911-sandbox/image.jpg)
+![flyer](./image.jpg)
