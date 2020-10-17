@@ -12,8 +12,7 @@ at [ARENA下北沢](http://twitter.com/arena_1111)
 
 2020.10.23 Start 19:30 
 
-**DJ:**
-
+**DJ:**<br/>
  **Yutaka Sano (aka d0d1e) [dot nine]**<br/>
  **Numatch**
 
