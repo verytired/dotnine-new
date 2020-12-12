@@ -20,5 +20,5 @@ No Charge (please 1 order)
 
 https://www.residentadvisor.net/events/1432628
 
-![flyer](content/blog/20201218-sandbox/flyer.jpg)
+![flyer](./flyer.jpg)
 
